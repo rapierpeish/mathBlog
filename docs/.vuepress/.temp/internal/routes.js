@@ -2,6 +2,8 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"欢迎来到我的数学博客"} }],
+  ["/math/", { loader: () => import(/* webpackChunkName: "math_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/index.html.js"), meta: {"title":"微分几何笔记"} }],
+  ["/math/%E8%81%94%E7%BB%9C.html", { loader: () => import(/* webpackChunkName: "math_联络.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/联络.html.js"), meta: {"title":"10.联络"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
