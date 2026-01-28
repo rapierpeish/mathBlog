@@ -1,0 +1,11 @@
+---
+title: Abstract_Algebra
+createTime: 2026/01/07 22:37:23
+permalink: /math/xhix2m24/
+---
+
+# 抽象代数目录
+- [整环](./整环.md)
+- [李代数](./李代数.md)
+- [参数子群](./参数子群.md)
+- [指数映射](./指数映射.md)

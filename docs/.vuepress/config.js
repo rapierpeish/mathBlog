@@ -1,35 +1,24 @@
 import { viteBundler } from '@vuepress/bundler-vite'
-import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
-import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
+
+  lang: 'zh-CN',
   bundler: viteBundler(),
-  theme: defaultTheme(),
-  themeConfig: {
-    sidebar: {
-        '/math/': [// 只给 /math/ 路径下自动生成侧边栏
-          {
-            text: '微分几何',
-            // 自动扫描 math 文件夹里的 md，按字母序排
-            children: [
-                '/math/index.md',
-                '/math/联络.md'
-            ]
-          }
-        ]
-      },
+  theme: plumeTheme({
     navbar: [
       { text: '首页', link: '/' },
-      { text: '微分几何', link: '/math/' }
-    ]  
-  },
-  base: "/",
+      { text: '数学', link: '/math/' }, // ← 关键！这里控制顶部导航
+      // 可以继续加：{ text: '物理', link: '/physics/' }
+    ],
 
-  plugins: [
-    markdownMathPlugin({
-      type: 'katex',          // 或 'mathjax'
-      delimiters: 'dollars'   // 默认 $...$  $$...$$
-    })
-  ]
+    locales: {
+      '/': { 
+        collections: [
+          { type: 'doc', dir: 'math', title: '数学' }
+        ]
+      },
+    }
+  }),
 })
