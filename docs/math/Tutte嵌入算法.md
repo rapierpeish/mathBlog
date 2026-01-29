@@ -3,6 +3,8 @@ title: Tutte嵌入算法
 categories: 几何算法
 tags:
   - 几何算法
+createTime: 2026/01/29 12:36:00
+permalink: /math/vfjedyio/
 ---
 
 
