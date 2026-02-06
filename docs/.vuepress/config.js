@@ -3,6 +3,10 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
+  // 基础路径（必须和仓库名一致，关键！）
+  base: '/mathBlog/',
+  // 构建产物输出路径：输出到 docs 文件夹（适配 GitHub Pages 的 /docs 目录）
+  dest: './dist', 
 
   lang: 'zh-CN',
   bundler: viteBundler(),

@@ -3,7 +3,6 @@ export const redirects = JSON.parse("{\"/math/1.1%E5%8A%9B%E5%AD%A6%E5%9F%BA%E7%
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"数学力学讲义"} }],
   ["/calculation/", { loader: () => import(/* webpackChunkName: "calculation_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/calculation/index.html.js"), meta: {"title":""} }],
-  ["/mechanics/", { loader: () => import(/* webpackChunkName: "mechanics_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/mechanics/index.html.js"), meta: {"title":""} }],
   ["/math/ga4006fr/", { loader: () => import(/* webpackChunkName: "math_ga4006fr_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/ga4006fr/index.html.js"), meta: {"title":"1.1 力学基础"} }],
   ["/math/ouwo886q/", { loader: () => import(/* webpackChunkName: "math_ouwo886q_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/ouwo886q/index.html.js"), meta: {"title":"1.一维流形上的弹性静力问题"} }],
   ["/math/g76mzqd6/", { loader: () => import(/* webpackChunkName: "math_g76mzqd6_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/g76mzqd6/index.html.js"), meta: {"title":"2.1 二维流形的弹性静力问题"} }],
@@ -45,5 +44,6 @@ export const routes = Object.fromEntries([
   ["/math/7w6l03be/", { loader: () => import(/* webpackChunkName: "math_7w6l03be_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/7w6l03be/index.html.js"), meta: {"title":"4.第二基本形式"} }],
   ["/math/z1nzz9g2/", { loader: () => import(/* webpackChunkName: "math_z1nzz9g2_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/z1nzz9g2/index.html.js"), meta: {"title":"第二类变分问题"} }],
   ["/math/c8hf4kx1/", { loader: () => import(/* webpackChunkName: "math_c8hf4kx1_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/c8hf4kx1/index.html.js"), meta: {"title":"10.联络"} }],
+  ["/mechanics/", { loader: () => import(/* webpackChunkName: "mechanics_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/mechanics/index.html.js"), meta: {"title":""} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);

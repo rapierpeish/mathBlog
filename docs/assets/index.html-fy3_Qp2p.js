@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app-H8p2Pqg1.js";const c={};function n(o,r){return a(),t("div")}const s=e(c,[["render",n]]),l=JSON.parse('{"path":"/calculation/","title":"","lang":"zh-CN","frontmatter":{},"readingTime":{"minutes":0,"words":0},"git":{},"filePathRelative":"calculation/README.md","headers":[]}');export{s as comp,l as data};
