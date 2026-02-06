@@ -47,20 +47,3 @@ export const routes = Object.fromEntries([
   ["/math/c8hf4kx1/", { loader: () => import(/* webpackChunkName: "math_c8hf4kx1_index.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/math/c8hf4kx1/index.html.js"), meta: {"title":"10.联络"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"E:/blog/vuepress-math-blog/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
