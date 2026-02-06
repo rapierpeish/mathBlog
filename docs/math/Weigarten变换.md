@@ -4,6 +4,8 @@ categories: 微分几何
 tags:
   - 微分几何
 order: 5
+createTime: 2026/01/07 22:15:46
+permalink: /math/33g3zfc5/
 ---
 
 # Weigarten变换定义

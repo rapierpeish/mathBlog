@@ -4,6 +4,8 @@ categories: 微分几何
 tags:
   - 微分几何
 order: 11
+createTime: 2026/01/25 22:46:36
+permalink: /math/r0lpt93j/
 ---
 
 # 0. 简述

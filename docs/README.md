@@ -2,10 +2,10 @@
 pageLayout: home
 home: true
 
-title: 我的数学笔记
+title: 数学力学讲义
 
 hero:
-  name: 我的数学笔记
+  name: 数学力学讲义
   text: 微分几何 · 代数 · 力学
 
 features:
