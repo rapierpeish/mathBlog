@@ -1,9 +1,9 @@
 name: Deploy VuePress Site to GitHub Pages
 
 on:
-  # 当 master 分支有推送时触发
+  # 当 main 分支有推送时触发
   push:
-    branches: [master]
+    branches: [main]
   # 也可手动触发
   workflow_dispatch:
 
