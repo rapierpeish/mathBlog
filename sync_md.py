@@ -24,36 +24,9 @@ with open("copyFiles.txt", 'r', encoding='utf-8') as f:
         # 将处理后的路径添加到列表中
         copy_files.append(cleaned_line)
 # 指定要拷贝的 Obsidian Markdown 文件列表（相对 OBSIDIAN_DIR）
-# copy_files = [
-#     "3.微分几何\曲线\空间曲线讲义.md",
-#     "3.微分几何\正则曲面讲义.md",
-#     "3.微分几何\曲面\第一基本形式.md",
-#     "3.微分几何\曲面\第二基本形式.md",
-#     "3.微分几何\Weigarten变换.md",
-#     "3.微分几何\曲面\曲面曲率.md",
-#     "3.微分几何\共形变换.md",
-#     "3.微分几何\弧长的变分问题.md",
-#     "3.微分几何\从Sobolev度量出发建立变分.md",
-#     "3.微分几何\联络.md",
-#     "3.微分几何\曲面\曲面的自然标架运动.md",
-#     "算法\Tutte嵌入算法.md",
-#     "算法\山脊线提取算法.md",
-#     "6.拓扑\同调群.md",
-#     "6.拓扑\单纯形.md",
-#     "6.拓扑\基本群.md",
-#     "1.代数学\环论\整环.md",
-#     "1.代数学\环论\多项式环.md",
-#     "3.微分几何\微分形式.md",
-#     "力学\\1.一维流形上的弹性静力问题.md",
-#     "力学\\2.1 二维流形的弹性静力问题.md",
-#     "力学\\2.2 膜单元静力计算.md",
-#     "力学\\2.3.1 DKT 薄板单元算例.md",
-#     "力学\\3.1 弹性薄壳的几何方程.md",
-#     "力学\\1.1力学基础.md",
-# ]
 
 # 匹配 Obsidian 图片引用 ![[xxx.png]]
-pattern = re.compile(r'!\[\[([^\]]+?)(\|[0-9]+)?\]\]')
+pattern = re.compile(r'!\[\[([^\]]+?\.(?:png|jpg|jpeg|gif|bmp|webp|svg))(\|[0-9]+)?\]\]', re.IGNORECASE)
  
 for rel_path  in copy_files:
     src_md = os.path.join(OBSIDIAN_DIR, rel_path)

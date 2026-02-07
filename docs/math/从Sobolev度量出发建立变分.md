@@ -5,7 +5,7 @@ tags:
   - 微分几何
 order: 9
 createTime: 2026/01/07 22:27:07
-permalink: /math/jwdcyf4x/
+permalink: /math/881sboum/
 ---
 本文从函数空间的角度出发，构造变分法的理论基础，逐步推导欧拉–拉格朗日方程。我们以路径最短问题为例，在具有度量结构的 Sobolev 空间上分析泛函的极值问题。
 
@@ -104,6 +104,7 @@ $$
 $$
 
 ### 局部 Lipschitz 条件
+
 设泛函$L: H^1 \to \mathbb{R}$。我们说 $L$ 在 $\gamma$ 的某邻域中满足**局部 Lipschitz 条件**，是指存在常数$C > 0$，使得对所有$\tilde\gamma$ 满足:
 
 $$

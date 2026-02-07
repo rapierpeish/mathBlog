@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app-CetGEt-w.js";const c={};function n(r,s){return a(),t("div")}const i=e(c,[["render",n]]),m=JSON.parse('{"path":"/mechanics/","title":"","lang":"zh-CN","frontmatter":{},"readingTime":{"minutes":0,"words":0},"git":{},"filePathRelative":"mechanics/README.md","headers":[]}');export{i as comp,m as data};

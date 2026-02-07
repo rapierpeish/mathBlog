@@ -19,3 +19,4 @@ permalink: /math/eit4w87s/
 - [从Sobolev度量出发建立变分](./从Sobolev度量出发建立变分)
 - [第二类变分问题](./第二类变分问题.md)
 - [Gauss-Coddzi方程](./Gauss-Codazzi方程.md)
+- [变分算子及其性质](./变分算子及其性质.md)
